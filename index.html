@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" name="google-adsense-account" content="ca-pub-6585477241259593">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="app.css">
+<script src="app.js" ></script>
+</head>
+<body>
+
+  <div class="search-container">
+    <form action="https://www.google.com/Home">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Go<i class="fa fa-search"></i></button>
+    </form>
+</div>
+
+  <div class="topnav">
+    <a class="active" href="index.htm">Home</a>
+    <a href="about.htm">About</a>
+    <a href="contact.htm">Contact</a>
+  </div>
+
+  
+  <section>
+    <header>
+      <h2>CYNOZA LAB</h2>
+    </header> 
+    <div id="main">
+      <button  class="openbtn" onclick="openNav()">☰ </button>
+      <p>MENU</p>
+    </div>
+  </section>
+
+ 
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="about.htm">About</a>
+    <a href="topics.htm">Ongoing Topics</a>
+    <a href="courses.htm">Courses</a>
+    <a href="contact.htm">Contact</a>
+
+    <a href="signup.htm"><button style="width: 100%;">Sign Up</button></a>
+
+<div id="id01" class="modal">                                                                                                                                                
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" onsubmit="signup(event)" method="post">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+        
+          <label for="username"><b>Name</b></label>
+          <input type="text" placeholder="Enter you name" maxlength="15" minlength="3" name="username" id="username" autocomplete="on" required>
+
+          <label for="dob"><b>Month of birth</b></label>
+          <input type="month" name="dob" id="dob" autocomplete="on" required>
+
+          <label for="age"><b>Age</b></label>
+          <input type="number" placeholder="Select your age" max="100" min="5" name="age" id="age" autocomplete="on" required>
+
+          <label for="gender"><b>Gender</b></label>
+          <input type="list" list="browsers" name="gender" id="gender" placeholder="select your gender / sex" autocomplete="off" required>
+          <datalist id="browsers">
+          <option value="Male">
+          <option value="Female">
+          </datalist>
+          
+          <label for="email"><b>Email Adress</b></label>
+          <input type="email" placeholder="Enter your email adress" name="email" id="email" autocomplete="on" required >
+
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter your password" minlength="5" name="password" id="password" autocomplete="off" required>
+
+              
+         
+      
+      <label>
+        <input type="checkbox"  name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn" >Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+  </div>
+  
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?" client="ca-pub-6585477241259593" crossorigin="anonymous"></script>  
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "0px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginRight= "0";
+  }
+
+  
+
+  </script>
+<section>
+
+  <div class="card">
+    <h3 class="title"> Rover Car</h1>
+  <img src="rover.jpg" alt="OOPSS" width="760" height="720">
+  </div>
+
+  <div class="card">
+    <article>
+      <h1>LBA Technology Club</h1>
+      <h4>Dear Parents,</h4>
+      <p>
+        At our institution, we understand the importance of equipping<br>
+        young minds with the knowledge and skills necessary to thrive in<br>
+        a technology-driven world.<br>
+      </p>
+      <p>
+        Our curriculum for children aged 10 to 17 incorporates an engaging<br>
+        and educational approach to teaching about the technology of<br>
+        robots.Here's an overview of our methodology:
+      </p>
+      <p>
+        <b>1.</b> Hands-On Learning: We believe in the power of experiential<br>
+        learning.Through hands-on activities and projects, students have<br>
+        the opportunity to explore the principles of robotics and develop<br>
+        a practical understanding of the technology. By engaging in<br>
+        constructing and programming robots, they gain firsthand<br>
+        knowledge of how these machines function.
+      </p>
+      <p>
+        <B>2.</B> Fundamental Concepts: Our educators are committed to<br>
+        imparting a solid foundation in the principles of robotics.<br>
+        From basic engineering concepts to coding and programming,<br>
+        students will delve into the core elements of <br>
+        robotics to foster a comprehensive understanding.
+      </p>
+      <p>
+        <b>3.</b> Teamwork and Collaboration: We emphasize the significance of<br>
+        teamwork and collaboration in the field of robotics. Through<br>
+        group projects and challenges, students learn to work together,<br>
+        problem-solve, and innovate, mirroring the real-world dynamics<br>
+        of technological development.
+      </P>
+      <P>
+        <b>4.</b> Ethical and Social Implications: Understanding the ethical and<br>
+        social implications of robotics is integral to our program. We<br>
+        encourage critical thinking about the impact of technology on<br>
+        society, ethics in robotics, and the responsible use of these<br>
+        advancements.
+      </P>
+      <P>
+        <b>5.</b> Practical Applications: Our curriculum also encompasses the<br>
+        practical applications of robotics in various industries, exposing<br>
+        students to the potential career paths and opportunities in this<br>
+        field.
+      </P>
+
+    </article>
+  </div>
+</section>
+<section>
+
+  <div>
+    <img src="lba.png" alt="OOPSS" width="770" height="230">
+  </div>
+
+  <div class="card">
+    <P>
+      We believe that by providing a comprehensive and immersive<br>
+      educational experience in robotics, we are preparing our<br>
+      students to become thoughtful,informed, and innovative<br>
+      contributors to society's technological landscape.Should<br>
+      you have any questions or require further information <a href="about.htm"><br>
+      about our program,</a>please do not hesitate to reach out.<br>
+      We look forward to partnering with you in nurturing and<br>
+      empowering your child's technological education.
+    </p>
+    <p>
+      Sincerely,
+    </p>
+    <p>
+      LBA Technology Club / CYNOZA
+    </p>
+  </div>
+</section>
+<section>
+  <img src="img" alt="OOPSS" width="760" height="340">
+  <article>
+    <h2>Our Services</h2>
+    <p>We plan to give courses to a biger age range in the future but for now our programme is for childernt within 10 to 17</p>
+    <p>Help us to help you by making a <a href="https://paypal.me/etchike?country.x=LS&locale.x=en_US">donation</a></p>
+    <a href="help.htm">Read More...</a>
+  </article>
+</section>
+
+<footer>
+  
+</footer>
+<script type="text/javascript" src="app.js" ></script>
+</body>
+
+</html>
